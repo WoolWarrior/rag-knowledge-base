@@ -134,7 +134,7 @@ function ChatSession({
         <div className="flex-1 overflow-y-auto p-4 flex flex-col gap-4">
           {messages.length === 0 && (
             <div className="text-center text-sm text-zinc-500 mt-10">
-              欢迎使用 AI 写作助手，今天想写点什么？
+              欢迎使用知识库内容管理器，今天想问些什么？
             </div>
           )}
           {messages.map((message, index) => {
